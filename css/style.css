@@ -9,6 +9,7 @@
     background-color: red;
 }
 
+
 .content{
     background-color: red;
     height: 100px;
@@ -24,6 +25,30 @@
     border: 1px solid white;
 }
 
+.jumbo-img{
+    max-width: 125px;
+}
+
+/* DECOTATION */
+
+.decoration-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decoration-custom-line {
+    width: 100%;
+    max-width: 100px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.decoration-icon {
+    font-size: 25px;
+    margin: 15px;
+    color: #fff;
+}
 
 /* CUSTOMS COLORS */
 .bg-header{
@@ -41,3 +66,5 @@
 .text-header-icon{
     color: #898886;
 }
+
+
