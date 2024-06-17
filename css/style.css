@@ -41,18 +41,20 @@
     max-width: 100px;
     height: 3px;
     border-radius: 50px;
-    background-color: #fff;
 }
 
 .decoration-icon {
     font-size: 25px;
     margin: 15px;
-    color: #fff;
 }
 
 /* CUSTOMS COLORS */
-.bg-header{
+.bg-custom-darkblue{
     background-color: #2D3E50;
+}
+
+.text-custom-darkblue{
+    color: #2D3E50;
 }
 
 .bg-acqua{
