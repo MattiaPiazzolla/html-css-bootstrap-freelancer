@@ -29,6 +29,12 @@
     max-width: 125px;
 }
 
+
+.underline-input{
+    display: block;
+    width: 100%;
+}
+
 /* DECOTATION */
 
 .decoration-custom {
