@@ -20,6 +20,12 @@
     background-color: black;
 }
 
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+
+/* CUSTOMS COLORS */
 .bg-header{
     background-color: #2D3E50;
 }
@@ -30,4 +36,8 @@
 
 .bg-footer{
     background-color: #3A546D;
+}
+
+.text-header-icon{
+    color: #898886;
 }
