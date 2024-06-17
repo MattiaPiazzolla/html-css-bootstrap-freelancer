@@ -67,7 +67,15 @@
     background-color: #1BBC9B;
 }
 
-.bg-footer{
+.text-acqua{
+    color: #1BBC9B;
+}
+
+.btn.bg-acqua:hover{
+    background-color: #15987e;
+}
+
+.bg-custom-lighblue{
     background-color: #3A546D;
 }
 
@@ -76,3 +84,21 @@
 }
 
 
+.circle-icon-footer{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    transition: all .25s;
+}
+
+.circle-icon-footer:hover{
+    transform: scale(1.1);
+}
+
+.circle-icon-footer i{
+    font-size: 20px;   
+}
