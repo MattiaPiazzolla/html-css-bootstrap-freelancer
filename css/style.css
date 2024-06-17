@@ -88,22 +88,33 @@
     color: #898886;
 }
 
-.hover-card{
-    transition: all .5s
+@media screen and (min-width: 576px) {
+    
+    
+    .hover-card{
+        transition: all .5s
+    }
+    
+    .not-hover-card{
+        transition: all .5s
+    }
+    
+    .hover-card:hover{
+        transform: scale(1.05);
+    }
+    
+    .hover-card-container:hover > :not(:hover) {
+        opacity: 0.75;
+        transform: scale(0.9);
+    }
 }
 
-.not-hover-card{
-    transition: all .5s
+@media screen and (min-width: 768px) {
+    .hover-card:hover{
+        transform: scale(1.15);
+    }
 }
 
-.hover-card:hover{
-    transform: scale(1.2);
-}
-
-.hover-card-container:hover > :not(:hover) {
-    opacity: 0.75;
-    transform: scale(0.9);
-}
 
 
 
